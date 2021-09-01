@@ -11,5 +11,10 @@ public class HomePageSteps {
         Home.open();
     }
 
+    @Step
+    public void goToCotizaEnvioPage(){
+        Home.getBtnCotizaEnvio().click();
+    }
+
 
 }

@@ -12,4 +12,7 @@ public class CotizaEnvioPageSteps {
     public void  goToHomePage(){
         CotizaEnvio.open();
     }
+
+
+
 }
