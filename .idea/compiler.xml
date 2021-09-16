@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MyFristAutomation" />
         <module name="AutomationInterrapidisimo" />
+        <module name="InterrapidisimoAutomation-Natalia" />
       </profile>
     </annotationProcessing>
   </component>
