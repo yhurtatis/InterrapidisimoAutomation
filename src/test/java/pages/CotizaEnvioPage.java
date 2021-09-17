@@ -1,4 +1,5 @@
 package pages;
 
-public class CotizaEnvioPage {
+public class CotizaEnvioPage extends   {
+
 }
