@@ -1,5 +1,8 @@
 package pages;
 
-public class CotizaEnvioPage extends   {
+import utils.UtilsElement;
+
+public class CotizaEnvioPage extends UtilsElement {
+
 
 }
