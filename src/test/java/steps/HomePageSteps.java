@@ -13,7 +13,7 @@ public class HomePageSteps {
 
     @Step
     public void goToCotizaEnvioPage(){
-        Home.getBtnCotizaEnvio().click();
+        Home.clickBtnCotizaEnvio();
     }
 
 

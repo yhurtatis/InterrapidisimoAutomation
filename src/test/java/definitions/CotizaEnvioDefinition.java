@@ -16,23 +16,23 @@ public class CotizaEnvioDefinition {
 
     @Given("^Estoy en la página de inicio de Interrapidisimo$")
     public void estoy_en_la_página_de_inicio_de_Interrapidisimo() {
+
         home.goToHomePage();
     }
 
     @When("^voy a la sección 'Cotiza tu envío'$")
     public void voy_a_la_sección_Cotiza_tu_envío() {
         home.goToCotizaEnvioPage();
-
     }
 
     @Then("^valido que se muestre correctamente la página \"([^\"]*)\"$")
     public void valido_que_se_muestre_correctamente_la_página(String arg1) {
+
     }
 
     @Given("^voy a la sección \"([^\"]*)\"$")
     public void voy_a_la_sección(String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
     }
     @When("^cotizo el envío$")
     public void cotizo_el_envío() {
