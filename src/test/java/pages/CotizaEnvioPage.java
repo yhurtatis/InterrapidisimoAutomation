@@ -4,6 +4,10 @@ import utils.UtilsElement;
 
 public class CotizaEnvioPage extends UtilsElement {
 
+    public CotizaEnvioPage(){
+
+    }
+
     private String lblTitulo = "//h2[text()='COTIZA TU ENVÍO']";
     private String inputDate = "//input[@id='date']";
     private String SelectOrigen = "//select[@id='Origen']";

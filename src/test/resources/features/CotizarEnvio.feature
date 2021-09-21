@@ -2,10 +2,10 @@ Feature: Cotizar envío
 
 #Escenario 1
   @TestCase1
-  Scenario: Ingresar a la páina de Cotizar envío
+  Scenario: Ingresar a la página de Cotizar envío
     Given Estoy en la página de inicio de Interrapidisimo
     When voy a la sección 'Cotiza tu envío'
-    Then valido que se muestre correctamente la página "Cotiza tu envío"
+    Then valido que se muestre correctamente la página 'Cotiza tu envío'
 
 
 #Escenario 2

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Cotizar envío" skipped="0" tests="1" time="32.26" timestamp="2021-09-18 08:57:03"><testcase name="Ingresar a la páina de Cotizar envío"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+definitions.CotizaEnvioDefinition.valido_que_se_muestre_correctamente_la_página(CotizaEnvioDefinition.java:33)&#13;
+✽.valido que se muestre correctamente la página "Cotiza tu envío"(src/test/resources/features/CotizarEnvio.feature:8)&#13;
+</system-err></testcase></testsuite>
