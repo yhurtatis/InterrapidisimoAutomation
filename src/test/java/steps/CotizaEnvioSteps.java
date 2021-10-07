@@ -18,5 +18,15 @@ public class CotizaEnvioSteps {
 
     }
 
+    @Step
+    public void clickQuoteShipping(){
+
+        cotizaEnvioPage.clickBtnCotizar();
+    }
+
+    @Step
+    public void closeModalIniCotiza(){
+        cotizaEnvioPage.closeModalIni();    }
+
 
 }

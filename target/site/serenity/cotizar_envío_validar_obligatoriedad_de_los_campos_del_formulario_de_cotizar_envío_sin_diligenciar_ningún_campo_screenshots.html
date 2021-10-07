@@ -107,7 +107,7 @@
                 > <span class="truncate-40"><a
                     href="feature_cotizar_envío.html">Cotizar Env&iacute;o</a></span>
                 > <span class="truncate-60"><a
-                    href="cotizar_envío_ingresar_a_la_página_de_cotizar_envío.html">Ingresar a la p&aacute;gina de Cotizar env&iacute;o </a></span>
+                    href="cotizar_envío_validar_obligatoriedad_de_los_campos_del_formulario_de_cotizar_envío_sin_diligenciar_ningún_campo.html">Validar obligatoriedad de los campos del formulario de cotizar env&iacute;o sin diligenciar ning&uacute;n campo </a></span>
                 > Screenshots
             </span>
         </div>
@@ -129,7 +129,7 @@
             <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2021 20:35</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2021 21:04</span>
     <br style="clear:left"/>
 </div>
 
@@ -158,7 +158,7 @@
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_testcase1.html">Testcase1
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_testcase2.html">Testcase2
                                     (tag)</a>
                                 </span>
                             </p>
@@ -170,9 +170,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Ingresar a la p&aacute;gina de Cotizar env&iacute;o
+                                <span class="failing-color">Validar obligatoriedad de los campos del formulario de cotizar env&iacute;o sin diligenciar ning&uacute;n campo
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -189,17 +189,57 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-BIC30TN', ip: '192.168.6.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>pages.CotizaEnvioPage.clickBtnCotizar(CotizaEnvioPage.java:34)<br />steps.CotizaEnvioSteps.clickQuoteShipping(CotizaEnvioSteps.java:24)<br />definitions.CotizaEnvioDefinition.cotizo_el_envío(CotizaEnvioDefinition.java:46)<br />✽.cotizo el envío(src/test/resources/features/CotizarEnvio.feature:16)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource17939362548938458033.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="1a807d641d9eea797311b35a0d1b21933a0534d86de946489871f8a286e41c1d.png" title=" Given Estoy en la p&aacute;gina de inicio de Interrapidisimo" width="1920"/>
                 <img src="1a807d641d9eea797311b35a0d1b21933a0534d86de946489871f8a286e41c1d.png" title=" Go to home page" width="1920"/>
                 <img src="1a807d641d9eea797311b35a0d1b21933a0534d86de946489871f8a286e41c1d.png" title=" Given Estoy en la p&aacute;gina de inicio de Interrapidisimo (completed)" width="1920"/>
-                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" When voy a la secci&oacute;n 'Cotiza tu env&iacute;o'" width="1920"/>
+                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" And voy a la secci&oacute;n 'Cotiza tu env&iacute;o'" width="1920"/>
                 <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" Go to cotiza envio page" width="1920"/>
-                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" When voy a la secci&oacute;n 'Cotiza tu env&iacute;o' (completed)" width="1920"/>
-                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" Then valido que se muestre correctamente la p&aacute;gina 'Cotiza tu env&iacute;o'" width="1920"/>
+                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" And voy a la secci&oacute;n 'Cotiza tu env&iacute;o' (completed)" width="1920"/>
+                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" When cotizo el env&iacute;o" width="1920"/>
                 <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" Validate title page" width="1920"/>
-                <img src="4ddce5640c5a51680ab72be8aed7280f58009e821fc19a9e2141eb4d81772ced.png" title=" Then valido que se muestre correctamente la p&aacute;gina 'Cotiza tu env&iacute;o' (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="03ae72bebe1e6ae04bc8bba6e39e7d87e962d24ab46fb8ba5194b286755df4ed.png" title=" Close modal ini cotiza" width="1920"/>
+                <img src="03ae72bebe1e6ae04bc8bba6e39e7d87e962d24ab46fb8ba5194b286755df4ed.png" title=" Click quote shipping: <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 

@@ -16,7 +16,10 @@ public class HomePage extends UtilsElement {
 
     private String btnCotizaEnvio = "//*[@href='https://www.interrapidisimo.com/cotiza-tu-envio/']";
 
+
     public void clickBtnCotizaEnvio() {
+        WebElementFacade element=element(btnCotizaEnvio);
+        element.waitUntilClickable();
         click(btnCotizaEnvio);
     }
 }

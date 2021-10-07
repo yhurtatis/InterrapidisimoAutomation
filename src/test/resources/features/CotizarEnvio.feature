@@ -12,7 +12,7 @@ Feature: Cotizar envío
   @TestCase2
   Scenario: Validar obligatoriedad de los campos del formulario de cotizar envío sin diligenciar ningún campo
     Given Estoy en la página de inicio de Interrapidisimo
-    And voy a la sección "Cotiza tu envío"
+    And voy a la sección 'Cotiza tu envío'
     When cotizo el envío
     Then se muestra un mensaje de validación de obligatoriedad para los campos
      #Campos obligatorios: Ciudad Origen, Ciudad destino, Peso real bascula y tipo de entrega.
@@ -23,7 +23,7 @@ Feature: Cotizar envío
   Scenario: Validar obligatoriedad del campo 'Ciudad Origen' del formulario de cotizar envío
     Given Estoy en la página de inicio de Interrapidisimo
     And voy a la sección 'Cotiza tu envío'
-    When diligencio el formulario sin llenar el campo "Ciudad Origen"
+    When diligencio el formulario sin llenar el campo 'Ciudad Origen'
     Then se muestra un mensaje de validación de obligatoriedad para el campo 'Ciudad Origen'
 
 #Scenario 4.
@@ -31,5 +31,5 @@ Feature: Cotizar envío
   Scenario: Validar obligatoriedad del campo 'Ciudad Destino' del formulario de cotizar envío
     Given Estoy en la página de inicio de Interrapidisimo
     And voy a la sección 'Cotiza tu envío'
-    When diligencio el formulario sin llenar el campo "Ciudad Origen"
+    When diligencio el formulario sin llenar el campo 'Ciudad Origen'
     Then se muestra un mensaje de validación de obligatoriedad para el campo 'Ciudad Destino'
