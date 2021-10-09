@@ -15,11 +15,16 @@ public class HomePage extends UtilsElement {
     }
 
     private String btnCotizaEnvio = "//*[@href='https://www.interrapidisimo.com/cotiza-tu-envio/']";
+    private String btnAcceptAlert = "//*[@id='onesignal-slidedown-allow-button']";
 
 
     public void clickBtnCotizaEnvio() {
         WebElementFacade element=element(btnCotizaEnvio);
         element.waitUntilClickable();
         click(btnCotizaEnvio);
+    }
+
+    public void  closeInitAlert() {
+        click(btnAcceptAlert);
     }
 }

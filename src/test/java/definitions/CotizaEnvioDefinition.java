@@ -23,26 +23,25 @@ public class CotizaEnvioDefinition {
     @Given("^Estoy en la página de inicio de Interrapidisimo$")
     public void estoy_en_la_página_de_inicio_de_Interrapidisimo() {
         home.goToHomePage();
-
+        home.closeAlert();
     }
 
     @When("^voy a la sección 'Cotiza tu envío'$")
     public void voy_a_la_sección_Cotiza_tu_envío() {
         home.goToCotizaEnvioPage();
-
+        cotizaEnvioSteps.validateTitlePage();
     }
 
     @Then("^valido que se muestre correctamente la página 'Cotiza tu envío'$")
     public void valido_que_se_muestre_correctamente_la_página_Cotiza_tu_envío() {
         cotizaEnvioSteps.validateTitlePage();
-
     }
 
 
     @When("^cotizo el envío$")
     public void cotizo_el_envío() {
-        cotizaEnvioSteps.validateTitlePage();
         cotizaEnvioSteps.closeModalIniCotiza();
+        cotizaEnvioSteps.swithToIframe();
         cotizaEnvioSteps.clickQuoteShipping();
     }
 

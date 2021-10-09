@@ -4,17 +4,20 @@ import net.thucydides.core.annotations.Step;
 import pages.HomePage;
 
 public class HomePageSteps {
-    private HomePage Home;
+    private HomePage home;
 
     @Step
     public void  goToHomePage(){
-        Home.open();
+        home.open();
     }
 
     @Step
     public void goToCotizaEnvioPage(){
-        Home.clickBtnCotizaEnvio();
+        home.clickBtnCotizaEnvio();
     }
 
-
+    @Step
+    public void closeAlert() {
+        home.closeInitAlert();
+    }
 }

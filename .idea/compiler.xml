@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Proyecto Automatizacion" />
         <module name="InterrapidisimoAutomation" />
+        <module name="nati" />
       </profile>
     </annotationProcessing>
   </component>

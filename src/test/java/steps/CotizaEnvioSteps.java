@@ -19,14 +19,21 @@ public class CotizaEnvioSteps {
     }
 
     @Step
-    public void clickQuoteShipping(){
+    public void swithToIframe(){
+        cotizaEnvioPage.swithToIframe();
+    }
 
+
+    @Step
+    public void clickQuoteShipping(){
+        cotizaEnvioPage.scrollForPixel("250");
         cotizaEnvioPage.clickBtnCotizar();
     }
 
     @Step
     public void closeModalIniCotiza(){
-        cotizaEnvioPage.closeModalIni();    }
+        cotizaEnvioPage.closeModalIni();
+    }
 
 
 }

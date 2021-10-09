@@ -44,4 +44,12 @@ public class UtilsElement extends PageObject {
         j.executeScript("window.scrollBy(0,"+pixels+")");
     }
 
+    public void clickWithJs(String xpath) {
+        WebElementFacade element = $(xpath);
+        JavascriptExecutor j = (JavascriptExecutor) getDriver();
+        j.executeScript ("arguments[0].style.border='1px solid #e91e63';",element);
+        j.executeScript("arguments[0].click()", element);
+        j.executeScript ("arguments[0].style.border='none';",element);
+    }
+
 }
